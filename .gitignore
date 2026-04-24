@@ -1,0 +1,12 @@
+# 忽略 CMake 和 Qt 产生的编译文件夹
+build/
+CMakeLists.txt.user
+
+# 忽略 VS Code 本地配置
+.vscode/
+
+# 忽略编译出来的可执行文件和库
+*.exe
+*.dll
+*.pdb
+*.obj
